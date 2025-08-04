@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Trip - Travel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <div class="logo">MyTrip</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Tours</a></li>
+        <li><a href="#">Destinations</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+   <div class="menu-toggle">&#9776;</div>
+   </nav>
+   </header>
+
+   <section class="hero">
+    <div class="hero-text">
+        <h1>Tour Travel & Adventure Camping</h1>
+        <p> <p>Explore the world with us and make memories for a lifetime.</p>
+        <a href="#"class="btn">Get started</a>
+    </div>
+   </section>
+
+   <section class="search-bar">
+    <input type="text" placeholder="Location">
+    <input type="text" placeholder="Type">
+    <input type="date">
+    <input type="number" placeholder="Guests">
+    <button>Search</button>
+   </section>
+
+   <section class="activities">
+    <h2>Popular Activities</h2>
+    <div class="cards">
+    <div class="card">
+    <img src="assets/Tent camping.jpg" alt="Tent Camping">
+    <h3>Tent Camping</h3>
+    </div>
+    <div class="card">
+    <img src="assets/Trailer Spots.jpg" alt="Tent Camping">
+    <h3>Trailers Spots</h3>
+    </div>
+    <div class="card">
+    <img src="assets/Adventure.jpg" alt="Tent Camping">
+    <h3>Adventure</h3>
+    </div>
+    <div class="card">
+    <img src="assets/couple cabin.jpg"Couple Cabin">
+    <h3>Couple Cabin</h3>
+    </div>
+    </div>
+   </section>
+
+   <section class="about">
+    <div class="about-content">
+    <img src="assets/about.jpg"alt="About Image">
+    <div class="about-text">
+     <h2>Great opportunity for adventure & travels</h2>
+     <ul>
+          <li>✅ Safety first always</li>
+          <li>✅ Low price & friendly</li>
+          <li>✅ Trusted travel guide</li>
+        </ul>
+      </div>
+    </div>
+</section>
+
+    <footer>
+        <div class="footer-content">
+      <p>&copy; 2025 MyTrip. All Rights Reserved.</p>  
+      <div class="socials">
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">Twitter</a>
+      </div>  
+        </div>
+    </footer>
+
+
+
+    <script>
+        const toggle =document.querySelector(".menu-toggle");
+        const navLinks=document.querySelector(".nav-links");
+        toggle.addEventListener("click",()=>{
+            navLinks.classList.toggle("active");
+        });
+    </script>
+</body>
+</html>
